@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nicole Llumpo — Dev Portfolio</title>
+  <link rel="stylesheet" href="./styles.css"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com"/> 
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400&family=Syne:wght@400;700;800&display=swap" rel="stylesheet"/>
+</head>
+<body>
+  <!-- NAV -->
+  <nav>
+    <span class="nav-logo">~/nicole-llumpo</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Proyectos</a></li>
+      <li><a href="#contact">Contacto</a></li>
+    </ul>
+  </nav>
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-grid">
+      <div>
+        <span class="hero-badge">// disponible · full time</span>
+        <h1>Nicole<br/><span>Llumpo</span></h1>
+        <p class="hero-desc">
+          Estudiante de Ingeniería en Sistemas · UTN<br/>
+          Apasionada por el backend, la lógica de sistemas<br/>
+          y construir cosas que funcionen bien.
+        </p>
+        <div class="hero-cta">
+          <a class="btn btn-primary" href="#projects">Ver proyectos</a>
+          <a class="btn btn-ghost"   href="#contact">Contacto</a>
+        </div>
+      </div>
+
+      <!-- Terminal -->
+      <div class="terminal fade-up">
+        <div class="terminal-bar">
+          <span class="dot dot-r"></span>
+          <span class="dot dot-y"></span>
+          <span class="dot dot-g"></span>
+        </div>
+        <div class="terminal-body">
+          <div><span class="t-prompt">nicole@dev:~$</span> <span class="t-cmd">whoami</span></div>
+          <div class="t-out">→ Desarrolladora junior · Buenos Aires, AR</div>
+          <div style="margin-top:.5rem"><span class="t-prompt">nicole@dev:~$</span> <span class="t-cmd">cat skills.txt</span></div>
+          <div class="t-out">→ <span class="t-hi">C++</span> · <span class="t-hi">JavaScript</span> · <span class="t-hi">HTML/CSS</span></div>
+          <div class="t-out">→ <span class="t-hi">Git</span> · <span class="t-hi">Linux</span> · <span class="t-hi">AutoCAD</span></div>
+          <div style="margin-top:.5rem"><span class="t-prompt">nicole@dev:~$</span> <span class="t-cmd">cat objetivo.txt</span></div>
+          <div class="t-out">→ Analista de Sistemas Jr · Dev Web/Backend Jr</div>
+          <div class="t-out">→ Soporte Técnico</div>
+          <div style="margin-top:.5rem"><span class="t-prompt">nicole@dev:~$</span> <span class="cursor"></span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about">
+    <div class="section-label">// 01 — sobre mí</div>
+    <h2>Acerca de mí</h2>
+    <div class="divider"></div>
+    <div style="max-width:680px; font-size:.95rem; line-height:1.9; color:var(--muted); font-family:var(--mono);" class="fade-up">
+      <p>Tengo 22 años y soy estudiante de Ingeniería en Sistemas de Información en la UTN. 
+      Me interesa el desarrollo de software desde el lado lógico: cómo se estructura un sistema, 
+      cómo fluye la información, cómo se resuelven los errores.</p>
+      <br/>
+      <p>Tengo experiencia en <span style="color:var(--accent)">C++, JavaScript, HTML/CSS</span>, 
+      manejo básico de <span style="color:var(--accent)">Git/GitHub y Linux</span>. También trabajé 
+      con <span style="color:var(--accent)">AutoCAD</span> en digitalización de planos urbanos y 
+      con herramientas de diseño como Photoshop.</p>
+      <br/>
+      <p>Busco mi primera oportunidad formal en IT donde pueda seguir aprendiendo y aportar valor real.</p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills">
+    <div class="section-label">// 02 — habilidades</div>
+    <h2>Tech Stack</h2>
+    <div class="divider"></div>
+    <div class="skills-grid">
+
+      <div class="skill-card fade-up">
+        <h3>Lenguajes</h3>
+        <div class="skill-bar-wrap">
+          <div class="skill-item"><span class="skill-name">C++</span><div class="skill-track"><div class="skill-fill" data-w="0.72"></div></div><span class="skill-pct">72%</span></div>
+          <div class="skill-item"><span class="skill-name">JavaScript</span><div class="skill-track"><div class="skill-fill" data-w="0.65"></div></div><span class="skill-pct">65%</span></div>
+          <div class="skill-item"><span class="skill-name">C</span><div class="skill-track"><div class="skill-fill" data-w="0.60"></div></div><span class="skill-pct">60%</span></div>
+          <div class="skill-item"><span class="skill-name">HTML / CSS</span><div class="skill-track"><div class="skill-fill" data-w="0.78"></div></div><span class="skill-pct">78%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <h3>Herramientas</h3>
+        <div class="skill-bar-wrap">
+          <div class="skill-item"><span class="skill-name">Git / GitHub</span><div class="skill-track"><div class="skill-fill" data-w="0.60"></div></div><span class="skill-pct">60%</span></div>
+          <div class="skill-item"><span class="skill-name">Linux (básico)</span><div class="skill-track"><div class="skill-fill" data-w="0.50"></div></div><span class="skill-pct">50%</span></div>
+          <div class="skill-item"><span class="skill-name">AutoCAD</span><div class="skill-track"><div class="skill-fill" data-w="0.70"></div></div><span class="skill-pct">70%</span></div>
+          <div class="skill-item"><span class="skill-name">Office</span><div class="skill-track"><div class="skill-fill" data-w="0.75"></div></div><span class="skill-pct">75%</span></div>
+        </div>
+      </div>
+
+      <div class="skill-card fade-up">
+        <h3>Conceptos</h3>
+        <div class="skill-bar-wrap">
+          <div class="skill-item"><span class="skill-name">POO</span><div class="skill-track"><div class="skill-fill" data-w="0.70"></div></div><span class="skill-pct">70%</span></div>
+          <div class="skill-item"><span class="skill-name">Estructuras de datos</span><div class="skill-track"><div class="skill-fill" data-w="0.65"></div></div><span class="skill-pct">65%</span></div>
+          <div class="skill-item"><span class="skill-name">REST APIs</span><div class="skill-track"><div class="skill-fill" data-w="0.55"></div></div><span class="skill-pct">55%</span></div>
+          <div class="skill-item"><span class="skill-name">Inglés técnico</span><div class="skill-track"><div class="skill-fill" data-w="0.60"></div></div><span class="skill-pct">60%</span></div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <div class="section-label">// 03 — proyectos</div>
+    <h2>Proyectos</h2>
+    <div class="divider"></div>
+    <div class="projects-grid">
+
+      <div class="project-card fade-up">
+        <div class="project-tag">C++ · POO · CLI</div>
+        <h3>Task Manager CLI</h3>
+        <p>Gestor de tareas por línea de comandos con herencia, polimorfismo, STL y persistencia en CSV. Soporta tareas urgentes con deadline.</p>
+        <div class="project-tags">
+          <span class="tag">C++17</span><span class="tag">OOP</span><span class="tag">STL</span><span class="tag">fstream</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NicoleLlumpo/task-manager-cpp" target="_blank">→ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-tag">Node.js · REST API</div>
+        <h3>API REST de Inventario</h3>
+        <p>Backend con Express.js para gestión de productos: CRUD completo, validaciones, manejo de errores y persistencia en JSON.</p>
+        <div class="project-tags">
+          <span class="tag">Node.js</span><span class="tag">Express</span><span class="tag">REST</span><span class="tag">JSON</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NicoleLlumpo/inventario-api" target="_blank">→ GitHub</a>
+        </div>
+      </div>
+
+      <div class="project-card fade-up">
+        <div class="project-tag">JavaScript · DOM · CRUD</div>
+        <h3>Sistema de Gestión de Alumnos</h3>
+        <p>Aplicación web para gestionar alumnos con filtros, estadísticas y persistencia en LocalStorage. Sin frameworks, JS puro.</p>
+        <div class="project-tags">
+          <span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">JavaScript</span><span class="tag">LocalStorage</span>
+        </div>
+        <div class="project-links">
+          <a href="https://github.com/NicoleLlumpo/sistema-alumnos" target="_blank">→ GitHub</a>
+          <a href="#" target="_blank">→ Demo</a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact">
+    <div class="section-label">// 04 — contacto</div>
+    <h2>Hablemos</h2>
+    <div class="divider" style="margin: 1rem auto 3rem;"></div>
+    <div class="contact-inner fade-up">
+      <p>Estoy buscando mi primer rol en IT. Si tenés una oportunidad o querés charlar sobre tecnología, escribime.</p>
+      <div class="contact-links">
+        <a class="btn btn-primary" href="mailto:Nicolellumpo1@gmail.com">✉ Email</a>
+        <a class="btn btn-ghost"   href="https://linkedin.com/in/nicole-llumpo" target="_blank">LinkedIn</a>
+        <a class="btn btn-ghost"   href="https://github.com/NicoleLlumpo" target="_blank">GitHub</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Desarrollado por Nicole Llumpo · Buenos Aires, AR · 2026</p>
+  </footer>
+
+  <script>
+    // Intersection Observer para fade-up y skill bars
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          // Animar barras si las hay
+          e.target.querySelectorAll('.skill-fill').forEach(bar => {
+            bar.style.transform = `scaleX(${bar.dataset.w})`;
+            bar.classList.add('animated');
+          });
+        }
+      });
+    }, { threshold: 0.15 });
+
+    document.querySelectorAll('.fade-up').forEach(el => observer.observe(el));
+  </script>
+</body>
+</html>
+
