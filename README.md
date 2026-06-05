@@ -19,7 +19,7 @@ El sitio incluye:
 ## Estructura
 
 ```
-portfolio-web/
+portfolio/
 ├── index.html    
 ├── styles.css  
 └── README.md
