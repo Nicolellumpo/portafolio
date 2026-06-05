@@ -5,8 +5,8 @@ Sitio web de portfolio personal desarrollado con **HTML, CSS y JavaScript**
 ## Vista previa
 
 El sitio incluye:
-- Hero con terminal animada
-- Sección de skills con barras de progreso animadas (Intersection Observer)
+- Sección principal con terminal animada
+- Sección de skills con barras de progreso animadas 
 - Grilla de proyectos
 - Sección de contacto
 
@@ -34,8 +34,3 @@ portfolio-web/
 
 No requiere instalación. Abrí `index.html` directo en el navegador:
 
-```
-
----
-
-> Desarrollado por **Nicole Llumpo** — Ingeniería en Sistemas de Información, UTN
