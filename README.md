@@ -10,16 +10,11 @@ El sitio incluye:
 - Grilla de proyectos
 - Sección de contacto
 
-## Técnicas aplicadas
+## Objetivos
 
-| Técnica | Descripción |
-|---|---|
-| **CSS Variables** | Tema consistente con `--bg`, `--accent`, etc. |
-| **CSS Grid & Flexbox** | Layout responsive sin frameworks |
-| **Intersection Observer API** | Animaciones al hacer scroll |
-| **CSS Animations** | Cursor parpadeante, fade-up, hover states |
-| **Responsive Design** | Mobile-first con media queries |
-| **Google Fonts** | `Syne` + `Space Mono` |
+- Analista de Sistemas Jr  
+- Dev Web/Frontend Jr  
+- Soporte Técnico  
 
 ## Estructura
 
@@ -29,6 +24,9 @@ portfolio-web/
 ├── styles.css  
 └── README.md
 ```
+## Estado
+
+El portafolio sigue en construcción. Iré sumando más proyectos y mejoras con el tiempo.  
 
 ## Cómo usar
 
