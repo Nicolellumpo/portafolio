@@ -2,6 +2,11 @@
 
 Sitio web de portfolio personal desarrollado con **HTML, CSS y JavaScript**
 
+## Objetivo del Portafolio
+Presentar mis proyectos y habilidades en desarrollo web y programación, mostrando ejemplos prácticos de lo 
+que sé hacer y cómo aplico mis conocimientos en proyectos reales.
+
+
 ## Vista previa
 
 El sitio incluye:
@@ -10,11 +15,6 @@ El sitio incluye:
 - Grilla de proyectos
 - Sección de contacto
 
-## Objetivos
-
-- Analista de Sistemas Jr  
-- Dev Web/Frontend Jr  
-- Soporte Técnico  
 
 ## Estructura
 
