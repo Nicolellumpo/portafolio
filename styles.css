@@ -409,4 +409,5 @@ nav {
     /* ── Responsive ────────────────────────────────────────── */
     @media (max-width: 600px) {
       .hero-grid { grid-template-columns: 1fr; }
+      
     }
