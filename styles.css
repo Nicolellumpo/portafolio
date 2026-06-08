@@ -151,6 +151,9 @@ nav {
       border-radius: 8px;
       overflow: hidden;
       font-family: var(--mono);
+      width: 100%;        /* ocupa todo el ancho disponible */
+      max-width: 100%;    /* evita que se corte */
+      box-sizing: border-box;
     }
 
     .terminal-bar {
