@@ -38,6 +38,8 @@ nav {
   display: flex; justify-content: space-between; align-items: center;
   padding: 1.2rem 5%;
   backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px); 
+  backdrop-filter: blur(12px);  
   border-bottom: 1px solid var(--border);
   background: rgba(11,12,16,0.8);
 }
@@ -100,8 +102,8 @@ nav {
 
     h1 span {
       background: linear-gradient(90deg, var(--accent), var(--accent2));
-       background-clip: text;  
       -webkit-background-clip: text;
+      background-clip: text;  
       -webkit-text-fill-color: transparent;
     }
 
@@ -143,6 +145,7 @@ nav {
       color: var(--muted);
     }
     .btn-ghost:hover { border-color: var(--accent); color: var(--accent); }
+    .about-color{color:var(--accent)}
 
     /* Terminal widget */
     .terminal {
@@ -171,6 +174,9 @@ nav {
       padding: 1.5rem;
       font-size: .8rem;
       line-height: 2;
+    }
+    .terminal-titulo{
+      margin-top: .5rem;
     }
 
     .t-prompt { color: var(--accent); }
@@ -210,7 +216,7 @@ nav {
     .divider {
       width: 60px; height: 2px;
       background: linear-gradient(90deg, var(--accent), transparent);
-      margin: 1rem 0 3rem;
+      margin: 1rem 0 auto 3rem;
     }
 
     /* ── Skills ───────────────────────────────────────────── */
@@ -218,8 +224,8 @@ nav {
 
     .skills-grid {
       display: grid;
-      grid-template-columns: repeat(3, 1fr);
-       /*grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); */
+      /*grid-template-columns: repeat(3, 1fr);*/
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); 
       gap: 1.5rem;
     }
 
@@ -274,8 +280,13 @@ nav {
       color: var(--accent);
       border: 1px solid rgba(0,245,160,.3);
     }
+    @media (max-width: 600px) {
+      .skills-grid {
+        grid-template-columns: 1fr; /* una sola columna */
+      }
+    }
 
-    
+  
     /* ── Projects ─────────────────────────────────────────── */
     .projects-grid {
       display: grid;
@@ -360,7 +371,14 @@ nav {
     .fade-up {
       opacity: 0;
       transform: translateY(24px);
+    }
+    .fade-tipo{
       transition: opacity .6s ease, transform .6s ease;
+      max-width:880px; 
+      font-size:.95rem; 
+      line-height:1.9; 
+      color:var(--muted); 
+      font-family:var(--mono)
     }
     .fade-up.visible { opacity: 1; transform: translateY(0); }
 
