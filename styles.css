@@ -34,14 +34,21 @@ body::before {
 
 /* ── Navigation ───────────────────────────────────────── */
 nav {
-  position: fixed; top: 0; left: 0; right: 0;z-index: 100;
-  display: flex; justify-content: space-between; align-items: center;
+  position: fixed; 
+  top: 0; left: 0; right: 0;
+  z-index: 100;
+  display: flex; 
+  justify-content: space-between; 
+  align-items: center;
   padding: 1.2rem 5%;
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px); 
   backdrop-filter: blur(12px);  
   border-bottom: 1px solid var(--border);
   background: rgba(11,12,16,0.8);
+
+  -webkit-backdrop-filter: blur(12px); 
+  backdrop-filter: blur(12px);    
 }
 
 .nav-logo {
@@ -63,6 +70,12 @@ nav {
     }
     .nav-links a:hover { color: var(--accent); }
 
+  @media (max-width: 500px) {
+      .nav-links { gap: 1rem;}
+      .nav-links a {font-size: 0.65rem;}
+      .nav-logo{padding: 0.5rem 0; font-size: 0.8rem;  }
+      .nav { padding: 1rem 1.5rem; flex-direction: column; align-items: flex-start;}
+  }
     /* ── Hero ─────────────────────────────────────────────── */
     #hero {
       min-height: 100vh;
@@ -194,6 +207,16 @@ nav {
 
     @keyframes blink { 50% { opacity: 0; } }
 
+    @media (max-width: 500px) {
+      .terminal-body {
+        padding: 1rem;       /* menos padding */
+        font-size: .7rem;    /* texto más chico */
+        line-height: 1.6;    /* más compacto */
+      }
+
+      .dot { width: 10px; height: 10px; } /* íconos más chicos */
+    }
+
     /* ── Sections ─────────────────────────────────────────── */
     section { padding: 6rem 5%; position: relative; }
 
@@ -218,6 +241,7 @@ nav {
       background: linear-gradient(90deg, var(--accent), transparent);
       margin: 1rem 0 auto 3rem;
     }
+
 
     /* ── Skills ───────────────────────────────────────────── */
     #skills { background: var(--surface); }
@@ -383,7 +407,6 @@ nav {
     .fade-up.visible { opacity: 1; transform: translateY(0); }
 
     /* ── Responsive ────────────────────────────────────────── */
-    @media (max-width: 768px) {
+    @media (max-width: 600px) {
       .hero-grid { grid-template-columns: 1fr; }
-      .terminal  { display: none; }
     }
