@@ -236,13 +236,6 @@ nav {
       margin-bottom: 3rem;
     }
 
-    .divider {
-      width: 60px; height: 2px;
-      background: linear-gradient(90deg, var(--accent), transparent);
-      margin: 1rem 0 auto 3rem;
-    }
-
-
     /* ── Skills ───────────────────────────────────────────── */
     #skills { background: var(--surface); }
 
