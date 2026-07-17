@@ -241,12 +241,8 @@ nav {
 
     .skills-grid {
       display: grid;
-      /*grid-template-columns: repeat(3, 1fr); */
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
       gap: 1.5rem;
-      width: 100%;          /* asegura que use todo el ancho */
-      max-width: 1200px;    /* opcional: podés quitarlo si querés que se estire sin límite */
-      margin: 0 auto;       /* centra la grilla si usás max-width */
     }
 
     .skill-card {
